@@ -1,0 +1,23 @@
+# dépendances
+node_modules/
+
+# variables d'environnement (secrets)
+.env
+.env.*
+!.env.example
+
+# fichiers générés
+dist/
+build/
+coverage/
+*.log
+
+# photos téléversées (on garde seulement le dossier)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# système et éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
